@@ -1,0 +1,1586 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../../lr2/report/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Отчёт - Веб-программирование. Конанчук Иван. К3340</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../.." title="Веб-программирование. Конанчук Иван. К3340" class="md-header__button md-logo" aria-label="Веб-программирование. Конанчук Иван. К3340" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Веб-программирование. Конанчук Иван. К3340
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Отчёт
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Веб-программирование. Конанчук Иван. К3340" class="md-nav__button md-logo" aria-label="Веб-программирование. Конанчук Иван. К3340" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Веб-программирование. Конанчук Иван. К3340
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главная
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ЛР1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ЛР1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-udp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задача 1. Обмен сообщениями по UDP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задача 1. Обмен сообщениями по UDP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Протокол
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код сервера
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код клиента
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-tcp-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задача 2. TCP-калькулятор: теорема Пифагора (вариант 1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задача 2. TCP-калькулятор: теорема Пифагора (вариант 1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Протокол
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код сервера
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код клиента
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-indexhtml-http" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задача 3. Раздача index.html по HTTP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задача 3. Раздача index.html по HTTP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Протокол
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код сервера
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задача 4. Многопользовательский чат
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задача 4. Многопользовательский чат">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Протокол и архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Раскраска имён
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код сервера
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код клиента
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-getpost" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задача 5. Веб-сервер оценок (GET/POST)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задача 5. Веб-сервер оценок (GET/POST)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Протокол
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код сервера
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Выводы
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ЛР2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ЛР2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lr2/report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Отчёт
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-udp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задача 1. Обмен сообщениями по UDP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задача 1. Обмен сообщениями по UDP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Протокол
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код сервера
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код клиента
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-tcp-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задача 2. TCP-калькулятор: теорема Пифагора (вариант 1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задача 2. TCP-калькулятор: теорема Пифагора (вариант 1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Протокол
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код сервера
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код клиента
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-indexhtml-http" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задача 3. Раздача index.html по HTTP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задача 3. Раздача index.html по HTTP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Протокол
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код сервера
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задача 4. Многопользовательский чат
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задача 4. Многопользовательский чат">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Протокол и архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Раскраска имён
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код сервера
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код клиента
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-getpost" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задача 5. Веб-сервер оценок (GET/POST)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Задача 5. Веб-сервер оценок (GET/POST)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Протокол
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Код сервера
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Выводы
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="1">ЛР1. Работа с сокетами</h1>
+<h2 id="_1">Цель работы</h2>
+<p>Понять принципы взаимодействия сокетов в вебе и реализовать базовую архитектуру клиент-сервер на Python с использованием только стандартной библиотеки <code>socket</code> (и <code>threading</code> там, где это требуется). Я сделал пять практических заданий: обмен сообщениями по UDP, TCP-калькулятор, раздача HTML-страницы по HTTP вручную, многопользовательский чат на потоках и веб-сервер оценок с ручной обработкой GET/POST-запросов.</p>
+<p>Мой номер в журнале 17, вариант считается как (17 - 1) mod 4 + 1 = 1, поэтому во втором задании я реализовал теорему Пифагора.</p>
+<p>Про все серверы сразу: сначала у меня бесконечный цикл <code>while True: server.accept()</code> (или <code>recvfrom()</code>) на Windows плохо останавливался по <code>Ctrl+C</code>. Интерпретатор проверяет прерывание только между инструкциями, а пока висит блокирующий системный вызов, управление к нему не возвращается. Поэтому во все пять серверов я добавил <code>server.settimeout(0.5)</code>: сокет ждёт подключение или пакет максимум полсекунды, потом вылетает <code>socket.timeout</code>, и цикл идёт на следующую итерацию. Так интерпретатор регулярно получает управление и успевает заметить <code>Ctrl+C</code>. Логика обработки данных от этого не поменялась.</p>
+<hr />
+<h2 id="1-udp">Задача 1. Обмен сообщениями по UDP</h2>
+<h3 id="_2">Протокол</h3>
+<p>UDP это протокол без установления соединения. Клиент отправляет датаграмму через <code>sendto()</code>, не дожидаясь подтверждения от сервера, а сервер получает её вместе с адресом отправителя через <code>recvfrom()</code> и отвечает на этот же адрес. Никакого рукопожатия здесь нет: если сервер не запущен, клиент об этом узнает не сразу, а только при попытке получить ответ.</p>
+<h3 id="_3">Код сервера</h3>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">socket</span>
+
+<span class="n">HOST</span> <span class="o">=</span> <span class="s2">"127.0.0.1"</span>
+<span class="n">PORT</span> <span class="o">=</span> <span class="mi">50000</span>
+
+<span class="n">server</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket</span><span class="o">.</span><span class="n">AF_INET</span><span class="p">,</span> <span class="n">socket</span><span class="o">.</span><span class="n">SOCK_DGRAM</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">bind</span><span class="p">((</span><span class="n">HOST</span><span class="p">,</span> <span class="n">PORT</span><span class="p">))</span>
+<span class="n">server</span><span class="o">.</span><span class="n">settimeout</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>  <span class="c1"># чтобы recvfrom() не блокировал Ctrl+C навсегда</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"UDP-сервер запущен на </span><span class="si">{</span><span class="n">HOST</span><span class="si">}</span><span class="s2">:</span><span class="si">{</span><span class="n">PORT</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">data</span><span class="p">,</span> <span class="n">address</span> <span class="o">=</span> <span class="n">server</span><span class="o">.</span><span class="n">recvfrom</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">socket</span><span class="o">.</span><span class="n">timeout</span><span class="p">:</span>
+            <span class="k">continue</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Сообщение от </span><span class="si">{</span><span class="n">address</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">data</span><span class="o">.</span><span class="n">decode</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="n">server</span><span class="o">.</span><span class="n">sendto</span><span class="p">(</span><span class="s2">"Hello, client"</span><span class="o">.</span><span class="n">encode</span><span class="p">(),</span> <span class="n">address</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">KeyboardInterrupt</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Сервер остановлен"</span><span class="p">)</span>
+<span class="k">finally</span><span class="p">:</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div>
+<h3 id="_4">Код клиента</h3>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">socket</span>
+
+<span class="n">HOST</span> <span class="o">=</span> <span class="s2">"127.0.0.1"</span>
+<span class="n">PORT</span> <span class="o">=</span> <span class="mi">50000</span>
+
+<span class="n">client</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket</span><span class="o">.</span><span class="n">AF_INET</span><span class="p">,</span> <span class="n">socket</span><span class="o">.</span><span class="n">SOCK_DGRAM</span><span class="p">)</span>
+<span class="n">client</span><span class="o">.</span><span class="n">sendto</span><span class="p">(</span><span class="s2">"Hello, server"</span><span class="o">.</span><span class="n">encode</span><span class="p">(),</span> <span class="p">(</span><span class="n">HOST</span><span class="p">,</span> <span class="n">PORT</span><span class="p">))</span>
+
+<span class="n">data</span><span class="p">,</span> <span class="n">address</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">recvfrom</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Ответ от сервера: </span><span class="si">{</span><span class="n">data</span><span class="o">.</span><span class="n">decode</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="n">client</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div>
+<h3 id="_5">Пример работы</h3>
+<p><img alt="Задача 1: обмен UDP-сообщениями" src="../images/task1.png" /></p>
+<p><em>Рис. 1. Сервер принимает "Hello, server" от трёх последовательных запусков клиента и каждый раз отвечает "Hello, client"</em></p>
+<p>Я запустил клиент три раза подряд. Каждый раз ОС давала ему новый случайный порт, потому что явного <code>bind()</code> у клиента нет (в логе сервера видно три разных порта). Сервер всё это время работал в одном процессе и отвечал на каждое сообщение.</p>
+<hr />
+<h2 id="2-tcp-1">Задача 2. TCP-калькулятор: теорема Пифагора (вариант 1)</h2>
+<h3 id="_6">Протокол</h3>
+<p>В отличие от UDP, TCP требует установления соединения. Сервер вызывает <code>listen()</code> и блокируется на <code>accept()</code> в ожидании подключения; клиент вызывает <code>connect()</code>, после чего между сторонами открывается двусторонний канал <code>recv()</code>/<code>send()</code>, не требующий передавать адрес при каждом обмене. Протокол обмена простой текстовый: клиент шлёт строку <code>"a b"</code> (два катета через пробел), сервер парсит её, считает гипотенузу по теореме Пифагора и возвращает результат тоже строкой.</p>
+<h3 id="_7">Код сервера</h3>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">socket</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">math</span>
+
+<span class="n">HOST</span> <span class="o">=</span> <span class="s2">"127.0.0.1"</span>
+<span class="n">PORT</span> <span class="o">=</span> <span class="mi">50001</span>
+
+<span class="n">server</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket</span><span class="o">.</span><span class="n">AF_INET</span><span class="p">,</span> <span class="n">socket</span><span class="o">.</span><span class="n">SOCK_STREAM</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">bind</span><span class="p">((</span><span class="n">HOST</span><span class="p">,</span> <span class="n">PORT</span><span class="p">))</span>
+<span class="n">server</span><span class="o">.</span><span class="n">listen</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">settimeout</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>  <span class="c1"># чтобы accept() не блокировал Ctrl+C навсегда</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"TCP-сервер запущен на </span><span class="si">{</span><span class="n">HOST</span><span class="si">}</span><span class="s2">:</span><span class="si">{</span><span class="n">PORT</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">conn</span><span class="p">,</span> <span class="n">address</span> <span class="o">=</span> <span class="n">server</span><span class="o">.</span><span class="n">accept</span><span class="p">()</span>
+        <span class="k">except</span> <span class="n">socket</span><span class="o">.</span><span class="n">timeout</span><span class="p">:</span>
+            <span class="k">continue</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Подключился клиент </span><span class="si">{</span><span class="n">address</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+        <span class="n">data</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">recv</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">()</span>
+        <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">float</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+        <span class="n">c</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">a</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">+</span> <span class="n">b</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Катеты: </span><span class="si">{</span><span class="n">a</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">b</span><span class="si">}</span><span class="s2"> -&gt; гипотенуза: </span><span class="si">{</span><span class="n">c</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+        <span class="n">conn</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">())</span>
+        <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="k">except</span> <span class="ne">KeyboardInterrupt</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Сервер остановлен"</span><span class="p">)</span>
+<span class="k">finally</span><span class="p">:</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div>
+<h3 id="_8">Код клиента</h3>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">socket</span>
+
+<span class="n">HOST</span> <span class="o">=</span> <span class="s2">"127.0.0.1"</span>
+<span class="n">PORT</span> <span class="o">=</span> <span class="mi">50001</span>
+
+<span class="n">a</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">"Введите первый катет: "</span><span class="p">))</span>
+<span class="n">b</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">"Введите второй катет: "</span><span class="p">))</span>
+
+<span class="n">client</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket</span><span class="o">.</span><span class="n">AF_INET</span><span class="p">,</span> <span class="n">socket</span><span class="o">.</span><span class="n">SOCK_STREAM</span><span class="p">)</span>
+<span class="n">client</span><span class="o">.</span><span class="n">connect</span><span class="p">((</span><span class="n">HOST</span><span class="p">,</span> <span class="n">PORT</span><span class="p">))</span>
+
+<span class="n">client</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">a</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">b</span><span class="si">}</span><span class="s2">"</span><span class="o">.</span><span class="n">encode</span><span class="p">())</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">recv</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Гипотенуза: </span><span class="si">{</span><span class="n">data</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="n">client</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div>
+<h3 id="_9">Пример работы</h3>
+<p><img alt="Задача 2: TCP-калькулятор" src="../images/task2.png" /></p>
+<p><em>Рис. 2. Два последовательных запуска клиента: катеты 2 и 6 дают гипотенузу 6.324555320336759, катеты 3.5 и 2.666 дают 4.399722263961669</em></p>
+<p>После ответа сервер закрывает соединение (<code>conn.close()</code>) и возвращается к <code>accept()</code>, так что клиентов можно обслуживать по очереди сколько угодно. На скриншоте второй запуск клиента отработал сразу после первого, сервер я не перезапускал.</p>
+<hr />
+<h2 id="3-indexhtml-http">Задача 3. Раздача index.html по HTTP</h2>
+<h3 id="_10">Протокол</h3>
+<p>HTTP-ответ это обычный текст по строгому формату: строка статуса, заголовки, пустая строка-разделитель и тело. Библиотеки вроде <code>http.server</code> я не использовал, ответ собираю вручную и отправляю через тот же TCP-сокет, что принял подключение. По заданию в ответе должен быть заголовок <code>Content-Length</code>: по нему клиент знает, сколько байт тела ему ждать.</p>
+<h3 id="_11">Код сервера</h3>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">socket</span>
+
+<span class="n">HOST</span> <span class="o">=</span> <span class="s2">"127.0.0.1"</span>
+<span class="n">PORT</span> <span class="o">=</span> <span class="mi">50002</span>
+
+<span class="n">server</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket</span><span class="o">.</span><span class="n">AF_INET</span><span class="p">,</span> <span class="n">socket</span><span class="o">.</span><span class="n">SOCK_STREAM</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">bind</span><span class="p">((</span><span class="n">HOST</span><span class="p">,</span> <span class="n">PORT</span><span class="p">))</span>
+<span class="n">server</span><span class="o">.</span><span class="n">listen</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">settimeout</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>  <span class="c1"># чтобы accept() не блокировал Ctrl+C навсегда</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"HTTP-сервер запущен на http://</span><span class="si">{</span><span class="n">HOST</span><span class="si">}</span><span class="s2">:</span><span class="si">{</span><span class="n">PORT</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">conn</span><span class="p">,</span> <span class="n">address</span> <span class="o">=</span> <span class="n">server</span><span class="o">.</span><span class="n">accept</span><span class="p">()</span>
+        <span class="k">except</span> <span class="n">socket</span><span class="o">.</span><span class="n">timeout</span><span class="p">:</span>
+            <span class="k">continue</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Подключился клиент </span><span class="si">{</span><span class="n">address</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+        <span class="n">request</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">recv</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span> <span class="c1"># запрос браузера не нужен, просто вычитываем его</span>
+
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"index.html"</span><span class="p">,</span> <span class="s2">"rb"</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+            <span class="n">body</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+
+        <span class="n">headers</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="s2">"HTTP/1.1 200 OK</span><span class="se">\r\n</span><span class="s2">"</span>
+            <span class="s2">"Content-Type: text/html; charset=utf-8</span><span class="se">\r\n</span><span class="s2">"</span>
+            <span class="sa">f</span><span class="s2">"Content-Length: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">body</span><span class="p">)</span><span class="si">}</span><span class="se">\r\n</span><span class="s2">"</span>
+            <span class="s2">"</span><span class="se">\r\n</span><span class="s2">"</span>
+        <span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">()</span>
+
+        <span class="n">conn</span><span class="o">.</span><span class="n">sendall</span><span class="p">(</span><span class="n">headers</span> <span class="o">+</span> <span class="n">body</span><span class="p">)</span>
+        <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="k">except</span> <span class="ne">KeyboardInterrupt</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Сервер остановлен"</span><span class="p">)</span>
+<span class="k">finally</span><span class="p">:</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div>
+<p>Файл <code>index.html</code> я открываю в бинарном режиме (<code>"rb"</code>), чтобы его байты можно было напрямую склеить с байтами заголовков через <code>+</code> без дополнительного кодирования.</p>
+<h3 id="_12">Пример работы</h3>
+<p><img alt="Задача 3: HTML-страница по HTTP" src="../images/task3.png" /></p>
+<p><em>Рис. 3. Слева лог сервера с множеством подключений от одной и той же вкладки браузера, справа отрисованная страница</em></p>
+<p>В логе много строк <code>Подключился клиент</code> подряд: каждое обновление страницы (<code>F5</code>) открывает новое TCP-соединение и новый <code>accept()</code>, сервер обрабатывает их по одному.</p>
+<hr />
+<h2 id="4">Задача 4. Многопользовательский чат</h2>
+<h3 id="_13">Протокол и архитектура</h3>
+<p>Это первая задача, где сервер должен обслуживать несколько клиентов одновременно, а не по очереди. Для этого я использовал <code>threading</code>: на каждое подключение, принятое в главном потоке через <code>accept()</code>, создаётся отдельный поток <code>handle_client</code>, который дальше общается только со своим клиентом. Пока один поток висит на <code>conn.recv()</code> и ждёт сообщение от своего пользователя, главный поток уже снова стоит на <code>accept()</code> и может принять следующего.</p>
+<p>Все подключённые клиенты хранятся в общем списке <code>clients</code>, это список кортежей <code>(conn, имя, цвет)</code>. Его меняют разные потоки (кто-то заходит, кто-то выходит), поэтому доступ к нему я обернул в <code>threading.Lock</code>. Без него поток рассылки (<code>broadcast</code>) мог бы идти по списку в тот момент, когда другой поток добавляет или удаляет клиента. Тогда рассылка могла бы пропустить кого-то или попытаться отправить сообщение в уже закрытый сокет. Сами <code>append</code> и <code>remove</code> под GIL выполняются целиком, но GIL не защищает весь проход «прочитать список, а потом разослать всем», поэтому нужен <code>Lock</code>.</p>
+<p>Протокол общения текстовый. Сразу после подключения клиент шлёт строку <code>"имя|номер_цвета"</code>, а дальше обычные текстовые сообщения, пока не пришлёт <code>/exit</code>.</p>
+<h3 id="_14">Раскраска имён</h3>
+<p>Я решил дополнительно различать пользователей по цвету: при входе в чат клиент выбирает один из 8 цветов для имени через простое текстовое меню (1-8), а сервер хранит выбранный ANSI-код вместе с именем и подставляет его в каждое сообщение от этого пользователя. Сделал это через escape-последовательности терминала (<code>\033[31m</code> и подобные: 7 стандартных цветов ANSI + один 256-цветный код для оранжевого), без сторонних библиотек вроде <code>colorama</code>. Мне хотелось обойтись одной стандартной библиотекой, тем более что современные терминалы (Windows Terminal, PowerShell 7+) понимают ANSI-коды из коробки.</p>
+<p>Ещё я выделил системные сообщения о входе и выходе капсом и жирным (<code>\033[1m</code> вместе с цветом), чтобы их было видно среди обычных реплик. Свои сообщения клиент подписывает как <code>Вы: &lt;текст&gt;</code> своим цветом, иначе среди чужих реплик непонятно, что написал ты сам.</p>
+<h3 id="_15">Код сервера</h3>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">socket</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">threading</span>
+
+<span class="n">HOST</span> <span class="o">=</span> <span class="s2">"127.0.0.1"</span>
+<span class="n">PORT</span> <span class="o">=</span> <span class="mi">50003</span>
+
+<span class="n">COLORS</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"1"</span><span class="p">:</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[31m"</span><span class="p">,</span>  <span class="c1"># красный</span>
+    <span class="s2">"2"</span><span class="p">:</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[32m"</span><span class="p">,</span>  <span class="c1"># зелёный</span>
+    <span class="s2">"3"</span><span class="p">:</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[33m"</span><span class="p">,</span>  <span class="c1"># жёлтый</span>
+    <span class="s2">"4"</span><span class="p">:</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[34m"</span><span class="p">,</span>  <span class="c1"># синий</span>
+    <span class="s2">"5"</span><span class="p">:</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[35m"</span><span class="p">,</span>  <span class="c1"># пурпурный</span>
+    <span class="s2">"6"</span><span class="p">:</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[36m"</span><span class="p">,</span>  <span class="c1"># голубой</span>
+    <span class="s2">"7"</span><span class="p">:</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[37m"</span><span class="p">,</span>  <span class="c1"># белый</span>
+    <span class="s2">"8"</span><span class="p">:</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[38;5;208m"</span><span class="p">,</span>  <span class="c1"># оранжевый</span>
+<span class="p">}</span>
+<span class="n">RESET</span> <span class="o">=</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[0m"</span>
+<span class="n">BOLD</span> <span class="o">=</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[1m"</span>
+
+<span class="n">clients</span> <span class="o">=</span> <span class="p">[]</span>  <span class="c1"># список кортежей (conn, имя, цвет)</span>
+<span class="n">clients_lock</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Lock</span><span class="p">()</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">broadcast</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">sender_conn</span><span class="p">):</span>
+    <span class="k">with</span> <span class="n">clients_lock</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">conn</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">color</span> <span class="ow">in</span> <span class="n">clients</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">conn</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">sender_conn</span><span class="p">:</span>
+                <span class="n">conn</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">message</span><span class="o">.</span><span class="n">encode</span><span class="p">())</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">handle_client</span><span class="p">(</span><span class="n">conn</span><span class="p">,</span> <span class="n">address</span><span class="p">):</span>
+    <span class="n">name</span><span class="p">,</span> <span class="n">color_num</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">recv</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">"|"</span><span class="p">)</span>
+    <span class="n">color</span> <span class="o">=</span> <span class="n">COLORS</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">color_num</span><span class="p">,</span> <span class="n">RESET</span><span class="p">)</span>
+
+    <span class="k">with</span> <span class="n">clients_lock</span><span class="p">:</span>
+        <span class="n">clients</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">conn</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">color</span><span class="p">))</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> подключился (</span><span class="si">{</span><span class="n">address</span><span class="si">}</span><span class="s2">)"</span><span class="p">)</span>
+    <span class="n">broadcast</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">BOLD</span><span class="si">}{</span><span class="n">color</span><span class="si">}{</span><span class="n">name</span><span class="si">}</span><span class="s2"> ВОШЁЛ В ЧАТ</span><span class="si">{</span><span class="n">RESET</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span> <span class="n">conn</span><span class="p">)</span>
+
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">recv</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">data</span> <span class="ow">or</span> <span class="n">data</span> <span class="o">==</span> <span class="s2">"/exit"</span><span class="p">:</span>
+            <span class="k">break</span>
+
+        <span class="n">broadcast</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">color</span><span class="si">}{</span><span class="n">name</span><span class="si">}{</span><span class="n">RESET</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">data</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span> <span class="n">conn</span><span class="p">)</span>
+
+    <span class="k">with</span> <span class="n">clients_lock</span><span class="p">:</span>
+        <span class="n">clients</span><span class="o">.</span><span class="n">remove</span><span class="p">((</span><span class="n">conn</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">color</span><span class="p">))</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> отключился"</span><span class="p">)</span>
+    <span class="n">broadcast</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">BOLD</span><span class="si">}{</span><span class="n">color</span><span class="si">}{</span><span class="n">name</span><span class="si">}</span><span class="s2"> ВЫШЕЛ ИЗ ЧАТА</span><span class="si">{</span><span class="n">RESET</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span> <span class="n">conn</span><span class="p">)</span>
+    <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+
+<span class="n">server</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket</span><span class="o">.</span><span class="n">AF_INET</span><span class="p">,</span> <span class="n">socket</span><span class="o">.</span><span class="n">SOCK_STREAM</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">bind</span><span class="p">((</span><span class="n">HOST</span><span class="p">,</span> <span class="n">PORT</span><span class="p">))</span>
+<span class="n">server</span><span class="o">.</span><span class="n">listen</span><span class="p">()</span>
+<span class="n">server</span><span class="o">.</span><span class="n">settimeout</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>  <span class="c1"># чтобы accept() не блокировал Ctrl+C навсегда</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Чат-сервер запущен на </span><span class="si">{</span><span class="n">HOST</span><span class="si">}</span><span class="s2">:</span><span class="si">{</span><span class="n">PORT</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">conn</span><span class="p">,</span> <span class="n">address</span> <span class="o">=</span> <span class="n">server</span><span class="o">.</span><span class="n">accept</span><span class="p">()</span>
+        <span class="k">except</span> <span class="n">socket</span><span class="o">.</span><span class="n">timeout</span><span class="p">:</span>
+            <span class="k">continue</span>
+
+        <span class="n">thread</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="n">handle_client</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">conn</span><span class="p">,</span> <span class="n">address</span><span class="p">),</span> <span class="n">daemon</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="n">thread</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+<span class="k">except</span> <span class="ne">KeyboardInterrupt</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Сервер остановлен"</span><span class="p">)</span>
+<span class="k">finally</span><span class="p">:</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div>
+<p>Потоки клиентов я создаю с <code>daemon=True</code>: если основной процесс сервера завершится (например, по <code>Ctrl+C</code>), они закроются вместе с ним, даже если в этот момент ждут <code>conn.recv()</code> от молчащего пользователя.</p>
+<h3 id="_16">Код клиента</h3>
+<p>Клиент один, его просто запускают несколько раз отдельными процессами для разных пользователей. Отдельных файлов под каждого клиента нет.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">socket</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">threading</span>
+
+<span class="n">HOST</span> <span class="o">=</span> <span class="s2">"127.0.0.1"</span>
+<span class="n">PORT</span> <span class="o">=</span> <span class="mi">50003</span>
+
+<span class="n">COLORS</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"1"</span><span class="p">:</span> <span class="p">(</span><span class="s2">"Красный"</span><span class="p">,</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[31m"</span><span class="p">),</span>
+    <span class="s2">"2"</span><span class="p">:</span> <span class="p">(</span><span class="s2">"Зелёный"</span><span class="p">,</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[32m"</span><span class="p">),</span>
+    <span class="s2">"3"</span><span class="p">:</span> <span class="p">(</span><span class="s2">"Жёлтый"</span><span class="p">,</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[33m"</span><span class="p">),</span>
+    <span class="s2">"4"</span><span class="p">:</span> <span class="p">(</span><span class="s2">"Синий"</span><span class="p">,</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[34m"</span><span class="p">),</span>
+    <span class="s2">"5"</span><span class="p">:</span> <span class="p">(</span><span class="s2">"Пурпурный"</span><span class="p">,</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[35m"</span><span class="p">),</span>
+    <span class="s2">"6"</span><span class="p">:</span> <span class="p">(</span><span class="s2">"Голубой"</span><span class="p">,</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[36m"</span><span class="p">),</span>
+    <span class="s2">"7"</span><span class="p">:</span> <span class="p">(</span><span class="s2">"Белый"</span><span class="p">,</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[37m"</span><span class="p">),</span>
+    <span class="s2">"8"</span><span class="p">:</span> <span class="p">(</span><span class="s2">"Оранжевый"</span><span class="p">,</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[38;5;208m"</span><span class="p">),</span>
+<span class="p">}</span>
+<span class="n">RESET</span> <span class="o">=</span> <span class="s2">"</span><span class="se">\033</span><span class="s2">[0m"</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">choose_color</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Выберите цвет имени:"</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">number</span><span class="p">,</span> <span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">color</span><span class="p">)</span> <span class="ow">in</span> <span class="n">COLORS</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">number</span><span class="si">}</span><span class="s2">. </span><span class="si">{</span><span class="n">color</span><span class="si">}{</span><span class="n">title</span><span class="si">}{</span><span class="n">RESET</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="n">choice</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Ваш выбор (1-8): "</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">choice</span> <span class="ow">in</span> <span class="n">COLORS</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">choice</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Нет такого номера, попробуйте ещё раз"</span><span class="p">)</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">receive_messages</span><span class="p">(</span><span class="n">sock</span><span class="p">):</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">data</span> <span class="o">=</span> <span class="n">sock</span><span class="o">.</span><span class="n">recv</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">()</span>
+        <span class="k">except</span> <span class="ne">OSError</span><span class="p">:</span>
+            <span class="k">break</span>  <span class="c1"># сокет закрыли из основного потока после /exit</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">data</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"Соединение с сервером закрыто"</span><span class="p">)</span>
+            <span class="k">break</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+
+<span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Введите имя: "</span><span class="p">)</span>
+<span class="n">color_num</span> <span class="o">=</span> <span class="n">choose_color</span><span class="p">()</span>
+
+<span class="n">my_color</span> <span class="o">=</span> <span class="n">COLORS</span><span class="p">[</span><span class="n">color_num</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="n">client</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket</span><span class="o">.</span><span class="n">AF_INET</span><span class="p">,</span> <span class="n">socket</span><span class="o">.</span><span class="n">SOCK_STREAM</span><span class="p">)</span>
+<span class="n">client</span><span class="o">.</span><span class="n">connect</span><span class="p">((</span><span class="n">HOST</span><span class="p">,</span> <span class="n">PORT</span><span class="p">))</span>
+<span class="n">client</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">|</span><span class="si">{</span><span class="n">color_num</span><span class="si">}</span><span class="s2">"</span><span class="o">.</span><span class="n">encode</span><span class="p">())</span>
+
+<span class="n">thread</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="n">receive_messages</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">client</span><span class="p">,),</span> <span class="n">daemon</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">thread</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Чат открыт. Для выхода введите /exit"</span><span class="p">)</span>
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
+    <span class="n">client</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">text</span><span class="o">.</span><span class="n">encode</span><span class="p">())</span>
+    <span class="k">if</span> <span class="n">text</span> <span class="o">==</span> <span class="s2">"/exit"</span><span class="p">:</span>
+        <span class="k">break</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">my_color</span><span class="si">}</span><span class="s2">Вы</span><span class="si">{</span><span class="n">RESET</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">text</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="n">client</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div>
+<p>Клиенту тоже нужен отдельный поток (<code>receive_messages</code>), иначе он не смог бы одновременно ждать ввода в <code>input()</code> (блокирующий вызов) и получать сообщения от сервера. Приём я обернул в <code>try/except OSError</code>: при <code>/exit</code> главный поток закрывает сокет, а поток приёма в этот момент может ещё стоять на <code>recv()</code>. Тогда <code>recv()</code> падает с исключением, и его надо просто поймать, чтобы в консоль не вылетал traceback.</p>
+<h3 id="_17">Пример работы</h3>
+<p><img alt="Задача 4: чат, два пользователя и сервер" src="../images/task4_user1.png" /></p>
+<p><em>Рис. 4. Три окна: лог сервера, клиент "Денчик" (пурпурный) и клиент "Светка" (зелёный)</em></p>
+<p>Сервер печатает подключение обоих пользователей, а после выхода Светки её отключение. Денчик зашёл первым и написал "Хайский", когда в чате ещё никого не было, поэтому Светка это сообщение не получила. Потом в терминале Денчика видно вход Светки капсом и жирным зелёным (<code>Светка ВОШЁЛ В ЧАТ</code>), а дальше переписка "Даров"/"Прив"/"Че делаешь": свои сообщения подписаны "Вы:", у чужих цветное имя. В конце тем же стилем выводится её выход (<code>Светка ВЫШЕЛ ИЗ ЧАТА</code>). У Светки <code>/exit</code> завершает только её клиент, чат Денчика продолжает работать.</p>
+<hr />
+<h2 id="5-getpost">Задача 5. Веб-сервер оценок (GET/POST)</h2>
+<h3 id="_18">Протокол</h3>
+<p>В отличие от задачи 3, здесь сервер не просто отдаёт статику, а разбирает HTTP-запрос вручную: из первой строки (<code>"GET / HTTP/1.1"</code> или <code>"POST / HTTP/1.1"</code>) достаются метод и путь, а для POST дополнительно читается заголовок <code>Content-Length</code> и по нему тело запроса. Тело в формате <code>application/x-www-form-urlencoded</code> (как у обычной HTML-формы) разбирается через <code>urllib.parse.parse_qs</code> из стандартной библиотеки. Она сама делает URL-декодирование и разбивает параметры по <code>&amp;</code> и <code>=</code>, так что вручную мне это писать не пришлось.</p>
+<p>Оценки я храню в <code>dict</code>: ключ это дисциплина, значение это список оценок по ней (<code>grades.setdefault(discipline, []).append(grade)</code>). Так оценки сразу группируются по дисциплине, а не пишутся построчным логом.</p>
+<h3 id="_19">Код сервера</h3>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">socket</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">urllib.parse</span>
+
+<span class="n">HOST</span> <span class="o">=</span> <span class="s2">"127.0.0.1"</span>
+<span class="n">PORT</span> <span class="o">=</span> <span class="mi">50004</span>
+
+<span class="n">grades</span> <span class="o">=</span> <span class="p">{}</span>  <span class="c1"># дисциплина -&gt; список оценок</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">render_page</span><span class="p">():</span>
+    <span class="n">rows</span> <span class="o">=</span> <span class="s2">""</span>
+    <span class="k">for</span> <span class="n">discipline</span><span class="p">,</span> <span class="n">marks</span> <span class="ow">in</span> <span class="n">grades</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">marks_str</span> <span class="o">=</span> <span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">marks</span><span class="p">)</span>
+        <span class="n">rows</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">"&lt;tr&gt;&lt;td&gt;</span><span class="si">{</span><span class="n">discipline</span><span class="si">}</span><span class="s2">&lt;/td&gt;&lt;td&gt;</span><span class="si">{</span><span class="n">marks_str</span><span class="si">}</span><span class="s2">&lt;/td&gt;&lt;/tr&gt;"</span>
+
+    <span class="k">return</span> <span class="sa">f</span><span class="s2">"""&lt;!DOCTYPE html&gt;</span>
+<span class="s2">&lt;html lang="ru"&gt;</span>
+<span class="s2">&lt;head&gt;&lt;meta charset="UTF-8"&gt;&lt;title&gt;Журнал оценок&lt;/title&gt;&lt;/head&gt;</span>
+<span class="s2">&lt;body&gt;</span>
+<span class="s2">    &lt;h1&gt;Журнал оценок&lt;/h1&gt;</span>
+<span class="s2">    &lt;form method="POST" action="/"&gt;</span>
+<span class="s2">        &lt;input type="text" name="discipline" placeholder="Дисциплина" required&gt;</span>
+<span class="s2">        &lt;input type="number" name="grade" placeholder="Оценка" min="2" max="5" required&gt;</span>
+<span class="s2">        &lt;button type="submit"&gt;Добавить&lt;/button&gt;</span>
+<span class="s2">    &lt;/form&gt;</span>
+<span class="s2">    &lt;table border="1" cellpadding="6"&gt;</span>
+<span class="s2">        &lt;tr&gt;&lt;th&gt;Дисциплина&lt;/th&gt;&lt;th&gt;Оценки&lt;/th&gt;&lt;/tr&gt;</span>
+<span class="s2">        </span><span class="si">{</span><span class="n">rows</span><span class="si">}</span>
+<span class="s2">    &lt;/table&gt;</span>
+<span class="s2">&lt;/body&gt;</span>
+<span class="s2">&lt;/html&gt;"""</span>
+
+
+<span class="n">server</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket</span><span class="o">.</span><span class="n">AF_INET</span><span class="p">,</span> <span class="n">socket</span><span class="o">.</span><span class="n">SOCK_STREAM</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">bind</span><span class="p">((</span><span class="n">HOST</span><span class="p">,</span> <span class="n">PORT</span><span class="p">))</span>
+<span class="n">server</span><span class="o">.</span><span class="n">listen</span><span class="p">()</span>
+<span class="n">server</span><span class="o">.</span><span class="n">settimeout</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>  <span class="c1"># чтобы accept() не блокировал Ctrl+C навсегда</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Сервер оценок запущен на http://</span><span class="si">{</span><span class="n">HOST</span><span class="si">}</span><span class="s2">:</span><span class="si">{</span><span class="n">PORT</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">conn</span><span class="p">,</span> <span class="n">address</span> <span class="o">=</span> <span class="n">server</span><span class="o">.</span><span class="n">accept</span><span class="p">()</span>
+        <span class="k">except</span> <span class="n">socket</span><span class="o">.</span><span class="n">timeout</span><span class="p">:</span>
+            <span class="k">continue</span>
+
+        <span class="n">request</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">recv</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">request</span><span class="p">:</span>
+            <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+            <span class="k">continue</span>
+
+        <span class="n">first_line</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">"</span><span class="se">\r\n</span><span class="s2">"</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">method</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">first_line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">" "</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">method</span> <span class="o">==</span> <span class="s2">"POST"</span><span class="p">:</span>
+            <span class="n">headers_part</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">body</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">partition</span><span class="p">(</span><span class="s2">"</span><span class="se">\r\n\r\n</span><span class="s2">"</span><span class="p">)</span>
+
+            <span class="n">content_length</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">headers_part</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">"</span><span class="se">\r\n</span><span class="s2">"</span><span class="p">)[</span><span class="mi">1</span><span class="p">:]:</span>
+                <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">"content-length"</span><span class="p">):</span>
+                    <span class="n">content_length</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">":"</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+
+            <span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">body</span><span class="o">.</span><span class="n">encode</span><span class="p">())</span> <span class="o">&lt;</span> <span class="n">content_length</span><span class="p">:</span>
+                <span class="n">body</span> <span class="o">+=</span> <span class="n">conn</span><span class="o">.</span><span class="n">recv</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">()</span>
+
+            <span class="n">params</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">parse_qs</span><span class="p">(</span><span class="n">body</span><span class="p">)</span>
+            <span class="n">discipline</span> <span class="o">=</span> <span class="n">params</span><span class="p">[</span><span class="s2">"discipline"</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+            <span class="n">grade</span> <span class="o">=</span> <span class="n">params</span><span class="p">[</span><span class="s2">"grade"</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+            <span class="n">grades</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="n">discipline</span><span class="p">,</span> <span class="p">[])</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">grade</span><span class="p">)</span>
+
+        <span class="n">body_html</span> <span class="o">=</span> <span class="n">render_page</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">()</span>
+        <span class="n">headers</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="s2">"HTTP/1.1 200 OK</span><span class="se">\r\n</span><span class="s2">"</span>
+            <span class="s2">"Content-Type: text/html; charset=utf-8</span><span class="se">\r\n</span><span class="s2">"</span>
+            <span class="sa">f</span><span class="s2">"Content-Length: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">body_html</span><span class="p">)</span><span class="si">}</span><span class="se">\r\n</span><span class="s2">"</span>
+            <span class="s2">"</span><span class="se">\r\n</span><span class="s2">"</span>
+        <span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">()</span>
+
+        <span class="n">conn</span><span class="o">.</span><span class="n">sendall</span><span class="p">(</span><span class="n">headers</span> <span class="o">+</span> <span class="n">body_html</span><span class="p">)</span>
+        <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="k">except</span> <span class="ne">KeyboardInterrupt</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Сервер остановлен"</span><span class="p">)</span>
+<span class="k">finally</span><span class="p">:</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div>
+<p>Тело дочитывается в цикле <code>while len(body.encode()) &lt; content_length</code>, потому что один <code>recv()</code> не обязан вернуть весь запрос сразу: TCP может доставить данные несколькими кусками, особенно если тело больше буфера.</p>
+<h3 id="_20">Пример работы</h3>
+<p><img alt="Задача 5: журнал оценок" src="../images/task5.png" /></p>
+<p><em>Рис. 5. Форма добавления оценки и итоговая таблица с четырьмя дисциплинами</em></p>
+<p>Через форму я добавил оценки по нескольким дисциплинам: «математикаааа»: 2, 3, 2, 2; «прога»: 5, 4; «видеоигры»: 5; «сон»: 2. Каждая дисциплина занимает одну строку таблицы, оценки перечислены через запятую, то есть группировка <code>дисциплина: [оценки]</code> работает.</p>
+<hr />
+<h2 id="_21">Выводы</h2>
+<p>В этой работе я сделал пять заданий по сокетам на Python только на стандартной библиотеке (<code>socket</code>, <code>threading</code>, <code>urllib.parse</code>). На задачах 1-3 видна разница между UDP (без соединения) и TCP (с соединением), а также то, что HTTP-ответ можно собрать руками поверх обычного TCP-сокета. В задаче 4 мне пришлось перейти от обслуживания клиентов по очереди к параллельному через <code>threading</code> и защищать общий список клиентов через <code>Lock</code>. Чат получился многопользовательский: пользователи различаются по имени (и по выбранному цвету), выйти можно командой <code>/exit</code>. В задаче 5 HTTP-запрос разбирается вручную (метод, путь, тело POST по <code>Content-Length</code>), а оценки хранятся сгруппированными по дисциплине.</p>
+<p>Ещё на всех пяти серверах мне пришлось решать проблему с остановкой: блокирующие <code>accept()</code>/<code>recvfrom()</code> на Windows плохо прерывались по <code>Ctrl+C</code>, поэтому я добавил таймаут сокета и обработку <code>socket.timeout</code> в цикле приёма.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
